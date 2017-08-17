@@ -14,7 +14,7 @@ import org.simplejavamail.email.Email;
 import ch.fankib.sendmail.model.impl.MapModel;
 import ch.fankib.sendmail.template.EmailBuilder;
 import ch.fankib.sendmail.template.impl.FixedVariable;
-import ch.fankib.sendmail.template.impl.SimpleEmailBuilder;
+import ch.fankib.sendmail.template.impl.DefaultEmailBuilder;
 import ch.fankib.sendmail.template.impl.SimpleEmailTemplate;
 import ch.fankib.sendmail.template.impl.StringVariable;
 
@@ -45,7 +45,7 @@ public class SendMailTest {
 						+ "Freundliche Gruesse \n"//
 						+ "e-Voting"));
 
-		EmailBuilder builder = new SimpleEmailBuilder();
+		EmailBuilder builder = new DefaultEmailBuilder();
 		List<Email> emails = builder.build(template, model);
 
 		for (Email email : emails) {

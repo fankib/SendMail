@@ -1,7 +1,3 @@
-/* 
- * Copyright E-Voting Group BFH, Bern University of Applied Sciences
- * Exclusively licensed to Valuetainment AG
- */
 package ch.fankib.sendmail.template.impl;
 
 import java.util.HashSet;
@@ -16,7 +12,7 @@ import ch.fankib.sendmail.template.Variable;
  * Use the template like "static text {var1}" and the model is used to replace
  * {var1}
  * 
- * @author fsb1
+ * @author beni
  *
  */
 public class StringVariable implements Variable {

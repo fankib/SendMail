@@ -1,7 +1,3 @@
-/* 
- * Copyright E-Voting Group BFH, Bern University of Applied Sciences
- * Exclusively licensed to Valuetainment AG
- */
 package ch.fankib.sendmail.template.impl;
 
 import ch.fankib.sendmail.model.Model;
@@ -10,7 +6,7 @@ import ch.fankib.sendmail.template.Variable;
 /**
  * This is a fixed Variable aka String
  * 
- * @author fsb1
+ * @author beni
  *
  */
 public class FixedVariable implements Variable {

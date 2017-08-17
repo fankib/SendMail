@@ -1,7 +1,3 @@
-/* 
- * Copyright E-Voting Group BFH, Bern University of Applied Sciences
- * Exclusively licensed to Valuetainment AG
- */
 package ch.fankib.sendmail.template.impl;
 
 import javax.mail.Message.RecipientType;
@@ -26,7 +22,7 @@ import ch.fankib.sendmail.template.Variable;
  * 
  * Put one {@link Variable} in each field and you are fine
  * 
- * @author fsb1
+ * @author beni
  *
  */
 public class SimpleEmailTemplate implements EmailTemplate {
