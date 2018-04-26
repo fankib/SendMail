@@ -1,7 +1,3 @@
-/* 
- * Copyright E-Voting Group BFH, Bern University of Applied Sciences
- * Exclusively licensed to Valuetainment AG
- */
 package ch.beni.sendmail;
 
 import java.util.HashMap;
@@ -13,8 +9,8 @@ import org.simplejavamail.email.Email;
 
 import ch.fankib.sendmail.model.impl.MapModel;
 import ch.fankib.sendmail.template.EmailBuilder;
-import ch.fankib.sendmail.template.impl.FixedVariable;
 import ch.fankib.sendmail.template.impl.DefaultEmailBuilder;
+import ch.fankib.sendmail.template.impl.FixedVariable;
 import ch.fankib.sendmail.template.impl.SimpleEmailTemplate;
 import ch.fankib.sendmail.template.impl.StringVariable;
 
